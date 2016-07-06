@@ -16,7 +16,7 @@
 
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body class='<%= "#{params[:controller]} #{params[:action]}" %>'>
   <%= render 'navbar' %>
   <div class="container">
 
