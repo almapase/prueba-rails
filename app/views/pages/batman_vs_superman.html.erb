@@ -2,15 +2,31 @@
   <div id="batman" class="col-xs-6">
     <div class="row">
       <div class="col-md-12 btn-group btn-group-justified">
-        <a class="btn btn-primary" role="button" href=<%= asset_path(pages_batman_path) %>>Batman</a>
+        <a class="btn btn-primary" role="button" href=<%= asset_path(pages_batman_path) %>>ir a Batman</a>
       </div>
+      <form class="col-md-12 form-inline" role="form" action=<%= pages_vot_batman_path %> method="post">
+        <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+        <div class="form-group">
+          <label class="sr-only" for="InputEmail">Email address</label>
+          <input name="email" type="email" class="form-control" id="InputEmail" placeholder="Email">
+        </div>
+        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> Votar</button>
+      </form>
     </div>
   </div>
   <div id="superman" class="col-xs-6">
     <div class="row">
       <div class="col-md-12 btn-group btn-group-justified">
-        <a class="btn btn-primary" role="button" href=<%= asset_path(pages_superman_path) %>>Superman</a>
+        <a class="btn btn-primary" role="button" href=<%= asset_path(pages_superman_path) %>>ir a Superman</a>
       </div>
+      <form class="col-md-12 form-inline" role="form" action=<%= pages_vot_superman_path %> method="post">
+        <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+        <div class="form-group">
+          <label class="sr-only" for="InputEmail">Email address</label>
+          <input name="email" type="email" class="form-control" id="InputEmail" placeholder="Email">
+        </div>
+        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> Votar</button>
+      </form>
     </div>
   </div>
 </div>

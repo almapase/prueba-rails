@@ -3,6 +3,9 @@ Rails.application.routes.draw do
   get 'pages/superman'
   get 'pages/batman-vs-superman'
 
+  post 'pages/vot_batman'
+  post 'pages/vot_superman'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
