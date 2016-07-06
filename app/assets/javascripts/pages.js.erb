@@ -1,3 +1,7 @@
 jQuery(document).on('turbolinks:load', function() {
-  $.backstretch("<%= asset_path('batman.jpg') %>");
+
+  $("#batman").backstretch("<%= asset_path('batman.jpg') %>");
+  $("#superman").backstretch("<%= asset_path('superman.jpg') %>");
+
+
 })
