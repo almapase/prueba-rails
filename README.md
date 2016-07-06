@@ -1,4 +1,7 @@
 # Primera prueba rails
+
+## url de Heroku: [https://prueba-rails-almapase.herokuapp.com/](https://prueba-rails-almapase.herokuapp.com/)
+
 1. Crear un proyecto llamado Superheroes
 2. Inicializar git y crear el primer commit
 3. Crear y moverse a el branch development
