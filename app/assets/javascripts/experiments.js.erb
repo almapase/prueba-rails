@@ -1,0 +1,12 @@
+function regresiva(n) {
+var count = n;
+var number = document.getElementById('numero');
+var intervalo = setInterval(function(){
+                   count--;
+                   number.innerHTML = count;
+                   if(count == 0){
+                     clearInterval(intervalo);
+                     alert("Se a cabo la espera");
+                   }
+                  }, 1000);
+}
