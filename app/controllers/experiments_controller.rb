@@ -1,4 +1,7 @@
 class ExperimentsController < ApplicationController
+
+  layout "layout_experiments"
+
   def page1
   end
 
