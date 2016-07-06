@@ -22,6 +22,7 @@
 
 13. Debajo de cada link crear un formulario de inscripción, los datos deben ser guardados en el modelo de votos guardando al héroe escogido
 14. Realizar el commit
+### EXTRA la 15
 15. Contar y mostrar la cantidad de votos que hay en cada uno Esta pregunta es de bonus, dejarla para el final
 - tip1: ocupando group_by (o sea se traen los datos de SQL y se agrupan en ruby)
 - tip2: ocupando group (se agrupan los datos de SQL y luego se traen)
